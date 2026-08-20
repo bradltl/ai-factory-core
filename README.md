@@ -1,28 +1,13 @@
 # AI Factory Core
 
-Welcome to the **AI Factory Core** repository. This project serves as a centralized knowledge base, extracting the patterns, skills, tools, and roles from the broader ecosystem of projects within this environment.
-
-By cataloging the diverse range of software architectures and technologies, this repository acts as a springboard for accelerating the development of future projects.
+Welcome to the **AI Factory Core** repository. This project serves as a centralized knowledge base, epatterns, skills, tools, and roles to power agentic development.
 
 ## Directory Structure
 
-- `/knowledge` - Technology radar and overarching domain insights (Game Dev, AI, Embedded, Web).
-- `/patterns` - Architectural and design patterns observed across multiple codebases (e.g., Monorepos, MCP architectures).
+- `/knowledge` - Technology radar and overarching domain insights.
+- `/patterns` - Architectural and design patterns observed across multiple codebases.
 - `/roles` - Personas and roles required to support the tech stack effectively.
 - `/skills` - The specific programming skills and tool competencies needed for future endeavors.
-
-## Ecosystem Overview
-
-An analysis of over 50 projects in the adjacent directories reveals a highly diverse software environment. 
-
-### Key Domains
-- **AI & Automation**: Extensive use of Model Context Protocol (MCP) in tooling, demonstrating a focus on Agentic AI integration.
-- **Web Applications**: Modern web apps built with Node.js and frameworks like Next.js.
-- **Game Development**: Simulation and game projects leveraging both Godot (GDScript) and Unity (C#).
-- **Backend Services**: High-performance services powered by Go and Python ecosystems.
-- **Embedded Systems**: Low-level embedded C/C++ (e.g., ByteBoi firmware).
-
-Leverage the artifacts in this repository to standardize approaches and rapidly onboard AI agents or developers to new projects!
 
 ## How to Bootstrap a New Project
 
