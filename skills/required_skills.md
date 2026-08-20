@@ -5,25 +5,25 @@ To effectively maintain and build upon the existing ecosystem, engineering teams
 ## 1. Full-Stack Web Development
 - **JavaScript & TypeScript**: Deep understanding of ES6+, typing systems, and asynchronous programming.
 - **Node.js**: Building APIs, CLI tools, and backend services.
-- **Modern UI Frameworks**: Familiarity with React/Next.js (evident in `osiris`, `ProjectPotato`) and DOM manipulation.
+- **Modern UI Frameworks**: Familiarity with React/Next.js and DOM manipulation.
 - **Tooling**: NPM/Yarn workspaces, Webpack/Vite.
 
 ## 2. Agentic AI & Integration
 - **Model Context Protocol (MCP)**: Knowing how to build and consume MCP servers to expose tools to LLMs.
-- **Python Ecosystem**: Utilizing Python for AI orchestration, data manipulation, and RAG architectures (e.g., `Brad-RAG`).
+- **Python Ecosystem**: Utilizing Python for AI orchestration, data manipulation, and RAG architectures.
 - **Prompt Engineering & Tool Design**: Designing APIs that are ergonomic for AI agents to use.
 
 ## 3. High-Performance & Systems Engineering
-- **Go (Golang)**: Writing highly concurrent, compiled backend services (e.g., `AIWF-GO`, `GT7-RaceEngineer`). Go Modules management.
+- **Go (Golang)**: Writing highly concurrent, compiled backend services. Go Modules management.
 - **Docker**: Containerizing applications, writing multi-stage builds, and orchestrating via `docker-compose`.
 
 ## 4. Game & Simulation Development
 - **Godot Engine**: Proficiency in GDScript, node-based architecture, and signals.
-- **Unity Engine**: Familiarity with C# scripting and Unity packages (e.g., `PMC`).
-- **3D Tooling**: Understanding rendering pipelines, potentially integrating with tools like Blender (`blender_mcp`).
+- **Unity Engine**: Familiarity with C# scripting and Unity packages.
+- **3D Tooling**: Understanding rendering pipelines, potentially integrating with tools like Blender.
 
 ## 5. Embedded & IoT
-- **C / C++**: Memory management, pointer arithmetic, and cross-compilation for constrained devices (e.g., `ByteBoi-Firmware`).
+- **C / C++**: Memory management, pointer arithmetic, and cross-compilation for constrained devices.
 - **Hardware Integration**: Communicating over serial, I2C, SPI.
 
 ## 6. Agentic Workflow & Engineering Practices

@@ -4,7 +4,6 @@ Based on the technologies and architectures present in the repos ecosystem, a we
 
 ## 1. The MCP Integration Specialist (AI/Tooling Engineer)
 **Focus:** Connecting existing domains (games, rendering, web) to LLMs and agentic frameworks.
-**Key Projects:** `blender_mcp`, `godot-mcp`, `jx-mcp`, `Brad-RAG`
 **Responsibilities:**
 - Designing reliable MCP servers.
 - Structuring context windows and RAG (Retrieval-Augmented Generation) pipelines.
@@ -12,7 +11,6 @@ Based on the technologies and architectures present in the repos ecosystem, a we
 
 ## 2. The Full-Stack Web Product Engineer
 **Focus:** Building responsive, robust, and scalable web applications.
-**Key Projects:** `ProjectPotato`, `osiris`, `GitHub-Contributor-Dashboard`
 **Responsibilities:**
 - Managing Monorepo architectures.
 - Writing modern TypeScript, React, and Node.js.
@@ -21,7 +19,6 @@ Based on the technologies and architectures present in the repos ecosystem, a we
 
 ## 3. The Backend Systems Architect
 **Focus:** High-throughput, scalable microservices and data pipelines.
-**Key Projects:** `AIWF-GO`, `GT7-RaceEngineer`, `RaceRox`
 **Responsibilities:**
 - Writing performant Go and Python services.
 - Containerizing applications with Docker.
@@ -29,7 +26,6 @@ Based on the technologies and architectures present in the repos ecosystem, a we
 
 ## 4. The Interactive Media Developer (Game/Simulation Dev)
 **Focus:** Real-time simulations, games, and rich interactive experiences.
-**Key Projects:** `Assets`, `LudusHigh`, `PMC`
 **Responsibilities:**
 - Utilizing Godot and Unity game engines.
 - Writing physics, logic, and rendering code (GDScript, C#, C++).
@@ -37,7 +33,6 @@ Based on the technologies and architectures present in the repos ecosystem, a we
 
 ## 5. The Embedded Hardware Engineer
 **Focus:** Low-level device control and firmware.
-**Key Projects:** `ByteBoi-Firmware`, `byteboi-godzilla`
 **Responsibilities:**
 - Writing memory-safe C/C++ firmware.
 - Managing hardware interrupts, memory, and constrained computing resources.
@@ -45,7 +40,6 @@ Based on the technologies and architectures present in the repos ecosystem, a we
 
 ## 6. The Principal Engineer / Review Agent
 **Focus:** Code review, testing, validation, and architectural boundaries.
-**Key Projects:** `PMC`, `RallyCoPilot`
 **Responsibilities:**
 - Reviewing implementation branches for correctness against specs.
 - Writing test plans and identifying missing edge cases.
@@ -54,7 +48,6 @@ Based on the technologies and architectures present in the repos ecosystem, a we
 
 ## 7. The Planner & Security Assessor
 **Focus:** Project breakdown, security reviews, and milestone definitions.
-**Key Projects:** `GitHub-Contributor-Dashboard`, `PMC`
 **Responsibilities:**
 - Breaking down broad requirements into thin vertical slices or manageable milestones.
 - Assuring that production-impacting work considers security, observability, and rollback capabilities.
