@@ -22,8 +22,11 @@ Technologies that are showing great promise and have been integrated into multip
   - Represents a shift towards composable AI agents and tool use. Future AI-centric projects should natively support MCP.
 - **Go / Go Modules**
   - Used for performance-critical backends. Great for microservices.
-- **Next.js**
-  - Standard for full-stack setups, indicating a shift towards SSR/SSG React architectures.
+- **Next.js & Lit (Web Components)**
+  - Next.js is standard for full-stack setups, indicating a shift towards SSR/SSG React architectures.
+  - Lit is observed for lightweight, interoperable web components.
+- **Cloud-Native Databases & Messaging**
+  - Google Cloud Spanner, Pub/Sub, and SQLite (with Litestream/Turso) for resilient data storage and event-driven backends.
 
 ## Assess (Niche or Emerging)
 Technologies used for specific use-cases that don't apply universally but require specialized knowledge.

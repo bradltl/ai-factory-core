@@ -43,6 +43,7 @@ Based on the technologies and architectures present in the repos ecosystem, a we
 **Responsibilities:**
 - Reviewing implementation branches for correctness against specs.
 - Writing test plans and identifying missing edge cases.
+- Building and running LLM-as-a-judge evaluation harnesses to benchmark agent skills.
 - Enforcing deterministic simulation boundaries and architectural decisions (ADRs).
 - Generating issue lists and critique without directly mutating production code.
 
@@ -58,6 +59,7 @@ Based on the technologies and architectures present in the repos ecosystem, a we
 **Responsibilities:**
 - Designing and maintaining CI/CD pipelines for automated builds and test execution.
 - Monitoring pipeline health, troubleshooting build failures, and resolving infrastructure bottlenecks.
+- Managing agentic telemetry, monitoring token spend, and deploying sandbox guardrails.
 - Providing support and standardized templates for environment setup, Docker configuration, and cloud provisioning.
 
 ## 9. The Market Research & Competitive Analyst
@@ -80,3 +82,10 @@ Based on the technologies and architectures present in the repos ecosystem, a we
 - Creating robust business plans outlining revenue streams, cost structures, and ROI.
 - Evaluating monetization assumptions and ensuring the product achieves commercial viability.
 - Assisting in investment pitches, strategic partnerships, and long-term ecosystem growth.
+
+## 12. The Financial/Regulatory Compliance Analyst
+**Focus:** Financial modeling, accounting standards, and regulatory adherence.
+**Responsibilities:**
+- Analyzing US GAAP and financial institution accounting fundamentals (ledgers, charts of accounts).
+- Researching and providing compliance analysis for US financial regulations.
+- Ensuring financial software models handle compliance rules safely and correctly.

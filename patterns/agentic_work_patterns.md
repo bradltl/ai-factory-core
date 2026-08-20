@@ -23,3 +23,18 @@ As AI-assisted software delivery evolves in the ecosystem, standardizing how hum
 **Description:** Documentation is the ultimate source of truth for agents.
 - Agents must update the project state, decision logs (ADRs), and schemas whenever contracts change.
 - Never rely solely on chat history; write state to Markdown specs so future agents have the correct context.
+
+## 5. Testable Agent Skills (Modular Context)
+**Description:** Rather than passing monolithic system prompts, domain knowledge should be distributed into discrete, testable "skills" or plugins (e.g., `SKILL.md` files). 
+- Agents can load these specialized skills on-demand for tasks like Frontend (Lit), Backend (Go/Spanner), or Workflow (PR Descriptions).
+- This keeps the agent's context window focused and budget-friendly.
+
+## 6. Automated LLM Evaluations (LLM-as-a-Judge)
+**Description:** Agent skills and outputs should be graded using deterministic harnesses and multi-model sweeps.
+- Evaluate agent performance by comparing outputs with and without a skill loaded.
+- Use an LLM as a judge (e.g., Sonnet or Opus) to score head-to-head A/B tests deterministically, preventing regressions in agent capabilities.
+
+## 7. Agent Guardrails and Sandbox Containment
+**Description:** Agentic sessions must operate within enforced bounds to ensure safety and prevent runaway costs.
+- Implement explicit stops (e.g., refusing to complete on a red CI build).
+- Monitor outbound data for credential shapes and audit all agent actions via local telemetry.

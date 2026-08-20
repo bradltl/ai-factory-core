@@ -31,12 +31,14 @@ To effectively maintain and build upon the existing ecosystem, engineering teams
 - **Incremental Delivery**: Skill in breaking down large projects into smaller phases, testing assumptions early, and delivering thin vertical slices of value.
 - **Documentation & State Management**: Creating and rigorously maintaining project documentation (e.g., Decision Logs, specs) as the ground truth for agent context.
 - **Security & Quality Assurance**: Performing comprehensive code reviews as a Principal Engineer, running security assessments, and ensuring deterministic tests accompany code.
+- **LLM Evaluation & Benchmarking**: Building judge-based evaluation harnesses to test agent performance and skill efficacy across multiple models (Haiku, Sonnet, Opus).
 
 ## 7. DevOps & Code Hygiene
 - **CI/CD Integration**: Connecting automated testing (unit, integration) directly into deployment pipelines.
 - **Infrastructure Support**: Troubleshooting pipeline bottlenecks, configuring environments, and maintaining robust operational tooling.
 - **Standardized Practices**: Utilizing Conventional Commits (`feat:`, `chore:`, etc.) and writing consistently documented, human-readable code.
 - **Developer Experience**: Producing and maintaining clear Developer Guides to ensure rapid onboarding.
+- **Agent Guardrails & Telemetry**: Configuring local telemetry to track agent spend and tool usage, and enforcing sandbox containment policies to ensure AI agents operate securely.
 
 ## 8. Product Strategy & Commercialization
 - **Market Research**: Ability to conduct competitive analysis, synthesize product teardowns, and identify white-space opportunities.
