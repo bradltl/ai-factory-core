@@ -1,0 +1,48 @@
+# Agent Role Configuration Defaults
+# This file should exist in the root of every project (e.g., as `.agent-config.yaml` or inside `05_Agent_Development_Plan.md`)
+# It maps the standardized factory roles to specific LLMs and execution frameworks.
+
+project_name: "example-project"
+version: "1.0"
+
+roles:
+  # Maps to Role 6: The Principal Engineer / Review Agent
+  principal_engineer_agent:
+    llm_model: "gemini-1.5-pro"
+    framework: "antigravity"
+    temperature: 0.2
+    max_tokens: 8192
+
+  # Maps to Roles 1-5: The Implementation / Subject Matter Expert Agents
+  implementation_agent:
+    llm_model: "codex"
+    framework: "antigravity"
+    temperature: 0.0
+    max_tokens: 8192
+
+  # Maps to Role 7: The Planner & Security Assessor
+  planner_agent:
+    llm_model: "gemini-1.5-pro"
+    framework: "antigravity"
+    temperature: 0.4
+    max_tokens: 8192
+
+  # Maps to Role 8: The DevOps & Infrastructure Engineer
+  devops_agent:
+    llm_model: "claude-3-5-sonnet"
+    framework: "langchain"
+    temperature: 0.0
+    max_tokens: 4096
+
+  # Maps to Roles 9-11: Market Research, GTM, and Business Strategy
+  research_and_strategy_agent:
+    llm_model: "gemini-1.5-flash"
+    framework: "autogen"
+    temperature: 0.7
+    max_tokens: 8192
+
+# Default fallback for any unspecified role
+default_configuration:
+  llm_model: "gemini-1.5-pro"
+  framework: "antigravity"
+  temperature: 0.3
